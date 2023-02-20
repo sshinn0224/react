@@ -1,8 +1,12 @@
-function Menu() {
+function Menu(props) {
+
+    const menus = props.menuList.map((e) => {
+        return <li key={e.id}> {e.title} </li>
+    })
+
     return <nav>
         <ul>
-            <li>search</li>
-            <li>my-page</li>
+            {menus}
         </ul>
     </nav>
 }

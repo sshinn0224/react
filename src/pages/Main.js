@@ -1,3 +1,5 @@
+import './Main.scss'
+
 function Banners() {
     return <div>banner1</div>
 }

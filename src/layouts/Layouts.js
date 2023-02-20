@@ -1,18 +1,12 @@
 import Main from "../pages/Main";
-import Menu from "./Menu";
+import Header from "./header/Header";
+import './Layouts.scss'
 
-
-function Header() {
-    return <div>
-        <h1>LOGO</h1>
-        <Menu/>
-    </div>
-}
 function Footer() {
-    return <div>Footer</div>
+    return <h1>Footer</h1>
 }
 function Layouts() {
-    return <div>
+    return <div className="layout-wrapper">
         <Header/>
         <Main />
         <Footer />
