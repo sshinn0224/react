@@ -6,6 +6,7 @@ function Footer() {
     return <h1>Footer</h1>
 }
 function Layouts() {
+    
     return <div className="layout-wrapper">
         <Header/>
         <Main />
